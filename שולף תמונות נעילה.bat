@@ -5,3 +5,4 @@ xcopy /s /Y "%USERPROFILE%\AppData\Local\Packages\Microsoft.Windows.ContentDeliv
 
 cd /d "%userprofile%\Desktop\תמונות חדשות מחשב\תמונות נעילה"
 for %%i  in (*) do (if not exist "%%i.jpg" (ren %%i *.jpg) else (del %%i))
+
