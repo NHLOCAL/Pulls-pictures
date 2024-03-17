@@ -1,6 +1,6 @@
 @echo off
 set "source=%userprofile%\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalCache\Microsoft\IrisService"
-set "destination=%userprofile%\Desktop\New computer images\Lock images"
+set "destination=%userprofile%\Desktop\New computer images\Spotlight images"
 
 rem Create destination folder if it doesn't exist
 if not exist "%destination%" mkdir "%destination%"
