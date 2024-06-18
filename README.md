@@ -6,7 +6,6 @@ This repository contains a script that extracts **Windows lock screen images**, 
 
 - **New! Updated script for 2024**:
   - **Compatibility**: Fully compatible with Windows 11 23H2 and above.
-  - **Fixes**: Solves the problem of disappearing lock images.
   - **Replication**: Also replicates desktop wallpaper images.
 
 ## Instructions
