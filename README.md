@@ -23,9 +23,8 @@ This repository contains a script that extracts **Windows lock screen images**, 
    ```
 
 3. **Enjoy Your Images**:
-   The script will create two folders on your Desktop:
-   - `New computer images\Spotlight images`
-   - `Lock images`
+   The script will create folder on your Desktop:
+   - `New computer images`
 
 ## Contributions
 
