@@ -11,7 +11,6 @@ set "destination3=%userprofile%\Desktop\New computer images\Bing images"
 rem Create destination folders if they don't exist
 if not exist "%destination1%" mkdir "%destination1%"
 if not exist "%destination2%" mkdir "%destination2%"
-if not exist "%destination3%" mkdir "%destination3%"
 
 rem Copy images from the first source folder to Spotlight images
 for /r "%source1%" %%F in (*) do (
@@ -31,17 +30,27 @@ for /r "%source2%" %%F in (*) do (
     )
 )
 
-rem Copy Bing images from the third source folder to Bing images
-for /r "%source3%" %%F in (*) do (
-    rem Check if the image already exists in the destination folder
-    if not exist "%destination3%\%%~nxF" (
-        rem Copy the Bing image to the destination folder
-        copy "%%F" "%destination3%"
+rem Check if the Bing images source folder exists
+if exist "%source3%" (
+    echo Bing images folder found, copying images...
+	
+	rem Create destination folder if he don't exist
+	if not exist "%destination3%" mkdir "%destination3%"
+
+    rem Copy Bing images from the third source folder to Bing images
+    for /r "%source3%" %%F in (*) do (
+        rem Check if the image already exists in the destination folder
+        if not exist "%destination3%\%%~nxF" (
+            rem Copy the Bing image to the destination folder
+            copy "%%F" "%destination3%"
+        )
+    )
+
+    rem Check if WPPrefs.bin exists and delete it
+    if exist "%destination3%\WPPrefs.bin" (
+        del "%destination3%\WPPrefs.bin"
     )
 )
-
-rem Remove the WPPrefs.bin file from the Bing images folder
-del "%destination3%\WPPrefs.bin"
 
 echo All images copied successfully.
 pause
