@@ -10,26 +10,23 @@ This repository contains a script that extracts **Windows lock screen images**, 
 
 ## Instructions
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/NHLOCAL/Pulls-pictures.git
-   ```
+1. **Download the Scripts**:
+   Download the latest version of the scripts from [here](https://github.com/NHLOCAL/Pulls-pictures/releases).
 
 2. **Run the Script**:
-   Navigate to the directory and run the batch file:
+   Navigate to the folder where you've downloaded the script and run the batch file:
    ```sh
-   cd Pulls-pictures
    pulls-pictures-2024-v2.bat
    ```
 
 3. **Enjoy Your Images**:
-   The script will create folder on your Desktop:
+   The script will create a folder on your Desktop:
    - `New computer images`
 
 ## Contributions
 
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for any suggestions or improvements.
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue with any suggestions or improvements.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
