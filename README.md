@@ -16,7 +16,7 @@ This repository contains a script that extracts **Windows lock screen images**, 
 2. **Run the Script**:
    Navigate to the folder where you've downloaded the script and run the batch file:
    ```sh
-   pulls-pictures-2024-v2.bat
+   pulls-pictures-2024-v3.bat
    ```
 
 3. **Enjoy Your Images**:
