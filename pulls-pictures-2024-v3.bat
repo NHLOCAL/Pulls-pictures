@@ -1,9 +1,9 @@
 @echo off
 title pulls pictures 2024
 
-set "source1=%userprofile%\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalCache\Microsoft\IrisService"
-set "source2=%userprofile%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets"
-set "source3=%userprofile%\AppData\Local\Microsoft\BingWallpaperApp\WPImages"
+set "source1=%localappdata%\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\LocalCache\Microsoft\IrisService"
+set "source2=%localappdata%\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets"
+set "source3=%localappdata%\Microsoft\BingWallpaperApp\WPImages"
 set "destination1=%userprofile%\Desktop\New computer images\Spotlight images"
 set "destination2=%userprofile%\Desktop\New computer images\Lock images"
 set "destination3=%userprofile%\Desktop\New computer images\Bing images"
