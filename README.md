@@ -1,5 +1,7 @@
 # Pulls-pictures
 
+![Pulls-pictures](pulls-pictures.webp)
+
 This repository contains a script that extracts **Windows lock screen images**, **Windows Spotlight images**, and **Bing wallpaper images** into designated folders on your computer.
 
 ## Features
